@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="CardListCell" customModule="CreditCardList" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Pva-tl-Waq">
+                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="creditcard.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lbt-yj-5ad">
+                                <rect key="frame" x="0.0" y="21.5" width="80" height="36.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="rsC-kl-fBV"/>
+                                    <constraint firstAttribute="height" constant="40" id="sP6-5i-hGT"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ys5-IM-J59">
+                        <rect key="frame" x="90" y="0.0" width="275" height="80"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nE5-Af-SuN">
+                                <rect key="frame" x="0.0" y="0.0" width="105" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0위" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eg9-WR-6Y2">
+                                        <rect key="frame" x="0.0" y="0.0" width="25" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" systemColor="systemGrayColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iRv-Bm-O8O">
+                                        <rect key="frame" x="25" y="0.0" width="80" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="CtZ-o9-5M0"/>
+                                            <constraint firstAttribute="height" constant="40" id="iDK-sK-3s4"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="    2">
+                                                <attributes>
+                                                    <color key="NSBackgroundColor" red="0.73280444587628868" green="0.73280444587628868" blue="0.73280444587628868" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="NSColor" red="0.97297365393532032" green="0.97133246182692579" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <font key="NSFont" size="12" name="HelveticaNeue-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="만원">
+                                                <attributes>
+                                                    <color key="NSBackgroundColor" red="0.73280444587628868" green="0.73280444587628868" blue="0.73280444587628868" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="NSColor" red="0.97297365393532032" green="0.97133246182692579" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <font key="NSFont" size="12" name="AppleSDGothicNeo-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" ">
+                                                <attributes>
+                                                    <color key="NSBackgroundColor" red="0.73280444587628868" green="0.73280444587628868" blue="0.73280444587628868" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="NSColor" red="0.97297365393532032" green="0.97133246182692579" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <font key="NSFont" size="12" name="HelveticaNeue-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="증정    ">
+                                                <attributes>
+                                                    <color key="NSBackgroundColor" red="0.73280444587628868" green="0.73280444587628868" blue="0.73280444587628868" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="NSColor" red="0.97297365393532032" green="0.97133246182692579" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <font key="NSFont" size="12" name="AppleSDGothicNeo-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="신용카드" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rgw-d9-NuB">
+                                <rect key="frame" x="0.0" y="40" width="66" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="UL1-KS-kwA">
+                        <rect key="frame" x="350" y="32" width="20" height="16.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="Vtp-FZ-LCH"/>
+                            <constraint firstAttribute="height" constant="20" id="zag-5j-x7Y"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="UL1-KS-kwA" secondAttribute="trailing" constant="5" id="5RI-D8-9yK"/>
+                    <constraint firstItem="ys5-IM-J59" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Dj8-hU-gZv"/>
+                    <constraint firstItem="UL1-KS-kwA" firstAttribute="centerY" secondItem="ys5-IM-J59" secondAttribute="centerY" id="L8F-tt-tj3"/>
+                    <constraint firstItem="Pva-tl-Waq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="LCF-78-xer"/>
+                    <constraint firstItem="Pva-tl-Waq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="NZe-aE-tZJ"/>
+                    <constraint firstItem="ys5-IM-J59" firstAttribute="leading" secondItem="Pva-tl-Waq" secondAttribute="trailing" constant="10" id="bZi-oj-Ilb"/>
+                    <constraint firstAttribute="bottom" secondItem="Pva-tl-Waq" secondAttribute="bottom" id="c1H-3i-QU3"/>
+                    <constraint firstAttribute="trailing" secondItem="ys5-IM-J59" secondAttribute="trailing" constant="10" id="sYB-BR-qhW"/>
+                    <constraint firstAttribute="bottom" secondItem="ys5-IM-J59" secondAttribute="bottom" id="yBj-gG-azl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="131.15942028985509" y="97.767857142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chevron.right" catalog="system" width="96" height="128"/>
+        <image name="creditcard.fill" catalog="system" width="128" height="88"/>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
