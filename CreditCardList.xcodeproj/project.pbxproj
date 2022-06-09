@@ -19,6 +19,7 @@
 		BF1B05432852067300C3CC5F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = BF1B05422852067300C3CC5F /* Kingfisher */; };
 		BF1B054528520B1F00C3CC5F /* CardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B054428520B1F00C3CC5F /* CardDetailViewController.swift */; };
 		BF1B054828520FB000C3CC5F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BF1B054728520FB000C3CC5F /* Lottie */; };
+		BF3FE814285211AB002640DD /* money.json in Resources */ = {isa = PBXBuildFile; fileRef = BF3FE813285211AB002640DD /* money.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		BF1B0518284F467A00C3CC5F /* CardListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListCell.swift; sourceTree = "<group>"; };
 		BF1B0519284F467A00C3CC5F /* CardListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardListCell.xib; sourceTree = "<group>"; };
 		BF1B054428520B1F00C3CC5F /* CardDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailViewController.swift; sourceTree = "<group>"; };
+		BF3FE813285211AB002640DD /* money.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = money.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				BF1A6E1428475BC9006F3CA5 /* Assets.xcassets */,
 				BF1A6E1628475BC9006F3CA5 /* LaunchScreen.storyboard */,
 				BF1A6E1928475BC9006F3CA5 /* Info.plist */,
+				BF3FE813285211AB002640DD /* money.json */,
 			);
 			path = CreditCardList;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				BF1A6E1828475BC9006F3CA5 /* LaunchScreen.storyboard in Resources */,
 				BF1A6E1528475BC9006F3CA5 /* Assets.xcassets in Resources */,
+				BF3FE814285211AB002640DD /* money.json in Resources */,
 				BF1A6E1328475BC7006F3CA5 /* Main.storyboard in Resources */,
 				BF1B051B284F467A00C3CC5F /* CardListCell.xib in Resources */,
 			);
