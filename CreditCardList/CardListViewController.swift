@@ -5,6 +5,7 @@
 //  Created by Lena on 2022/06/01.
 //
 import UIKit
+import Kingfisher
 
 class CardListViewController: UITableViewController {
     var creditCardList: [CreditCard] = [] // 전달된 데이터
@@ -31,6 +32,16 @@ class CardListViewController: UITableViewController {
         cell.promotionLabel.text = "\(creditCardList[indexPath.row].promotionDetail.amount)만원 증정"
         cell.cardNameLabel.text = "\(creditCardList[indexPath.row].name)"
         
+        // Kingfisher에서 이미지를 불러오기 위해 우선 imageURL을 만든다
+        let imageURL = URL(string: creditCardList[indexPath.row].cardImageURL)
+        // string을 URL 타입으로 타입변환 해줌
+        cell.cardImageView.kf.setImage(with: imageURL)
+        
         return cell
+    }
+    
+    // 셀의 높이 지정하기
+    override func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 80
     }
 }
