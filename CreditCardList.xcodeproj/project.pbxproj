@@ -17,6 +17,7 @@
 		BF1B051A284F467A00C3CC5F /* CardListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B0518284F467A00C3CC5F /* CardListCell.swift */; };
 		BF1B051B284F467A00C3CC5F /* CardListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1B0519284F467A00C3CC5F /* CardListCell.xib */; };
 		BF1B05432852067300C3CC5F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = BF1B05422852067300C3CC5F /* Kingfisher */; };
+		BF1B054528520B1F00C3CC5F /* CardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B054428520B1F00C3CC5F /* CardDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		BF1B0516284F44AC00C3CC5F /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
 		BF1B0518284F467A00C3CC5F /* CardListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListCell.swift; sourceTree = "<group>"; };
 		BF1B0519284F467A00C3CC5F /* CardListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardListCell.xib; sourceTree = "<group>"; };
+		BF1B054428520B1F00C3CC5F /* CardDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,15 +67,16 @@
 			isa = PBXGroup;
 			children = (
 				BF1A6E1F28475BEB006F3CA5 /* CardListViewController.swift */,
+				BF1B054428520B1F00C3CC5F /* CardDetailViewController.swift */,
 				BF1A6E0B28475BC7006F3CA5 /* AppDelegate.swift */,
 				BF1A6E0D28475BC7006F3CA5 /* SceneDelegate.swift */,
+				BF1B0516284F44AC00C3CC5F /* CreditCard.swift */,
+				BF1B0518284F467A00C3CC5F /* CardListCell.swift */,
 				BF1A6E1128475BC7006F3CA5 /* Main.storyboard */,
+				BF1B0519284F467A00C3CC5F /* CardListCell.xib */,
 				BF1A6E1428475BC9006F3CA5 /* Assets.xcassets */,
 				BF1A6E1628475BC9006F3CA5 /* LaunchScreen.storyboard */,
 				BF1A6E1928475BC9006F3CA5 /* Info.plist */,
-				BF1B0516284F44AC00C3CC5F /* CreditCard.swift */,
-				BF1B0518284F467A00C3CC5F /* CardListCell.swift */,
-				BF1B0519284F467A00C3CC5F /* CardListCell.xib */,
 			);
 			path = CreditCardList;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF1B0517284F44AC00C3CC5F /* CreditCard.swift in Sources */,
+				BF1B054528520B1F00C3CC5F /* CardDetailViewController.swift in Sources */,
 				BF1B051A284F467A00C3CC5F /* CardListCell.swift in Sources */,
 				BF1A6E2028475BEB006F3CA5 /* CardListViewController.swift in Sources */,
 				BF1A6E0C28475BC7006F3CA5 /* AppDelegate.swift in Sources */,
