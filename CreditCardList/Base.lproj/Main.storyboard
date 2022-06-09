@@ -57,7 +57,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RJ5-O8-Gwf">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RJ5-O8-Gwf" customClass="AnimationView" customModule="Lottie">
                                         <rect key="frame" x="0.0" y="61" width="404" height="139"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
@@ -74,6 +74,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="카드 혜택 상세" id="28d-Cb-4Rk"/>
+                    <connections>
+                        <outlet property="lottieView" destination="RJ5-O8-Gwf" id="6xT-Ef-jeV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NxU-9C-6kF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -18,6 +18,7 @@
 		BF1B051B284F467A00C3CC5F /* CardListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1B0519284F467A00C3CC5F /* CardListCell.xib */; };
 		BF1B05432852067300C3CC5F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = BF1B05422852067300C3CC5F /* Kingfisher */; };
 		BF1B054528520B1F00C3CC5F /* CardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B054428520B1F00C3CC5F /* CardDetailViewController.swift */; };
+		BF1B054828520FB000C3CC5F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BF1B054728520FB000C3CC5F /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF1B05432852067300C3CC5F /* Kingfisher in Frameworks */,
+				BF1B054828520FB000C3CC5F /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +101,7 @@
 			name = CreditCardList;
 			packageProductDependencies = (
 				BF1B05422852067300C3CC5F /* Kingfisher */,
+				BF1B054728520FB000C3CC5F /* Lottie */,
 			);
 			productName = CreditCardList;
 			productReference = BF1A6E0828475BC7006F3CA5 /* CreditCardList.app */;
@@ -130,6 +133,7 @@
 			mainGroup = BF1A6DFF28475BC7006F3CA5;
 			packageReferences = (
 				BF1B05412852067300C3CC5F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				BF1B054628520FB000C3CC5F /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = BF1A6E0928475BC7006F3CA5 /* Products */;
 			projectDirPath = "";
@@ -392,6 +396,14 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		BF1B054628520FB000C3CC5F /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -399,6 +411,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = BF1B05412852067300C3CC5F /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		BF1B054728520FB000C3CC5F /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF1B054628520FB000C3CC5F /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

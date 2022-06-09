@@ -6,7 +6,9 @@
 //
 
 import UIKit
+import Lottie
 
 class CardDetailViewController: UIViewController {
     
+    @IBOutlet weak var lottieView: AnimationView!
 }
