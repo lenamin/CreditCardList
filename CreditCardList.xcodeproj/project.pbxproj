@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF005DA52854CD2600E76837 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF005DA42854CD2600E76837 /* GoogleService-Info.plist */; };
+		BF005DA82854CF2D00E76837 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BF005DA72854CF2D00E76837 /* FirebaseAnalytics */; };
 		BF1A6E0C28475BC7006F3CA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1A6E0B28475BC7006F3CA5 /* AppDelegate.swift */; };
 		BF1A6E0E28475BC7006F3CA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1A6E0D28475BC7006F3CA5 /* SceneDelegate.swift */; };
 		BF1A6E1328475BC7006F3CA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1A6E1128475BC7006F3CA5 /* Main.storyboard */; };
@@ -23,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF005DA42854CD2600E76837 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BF1A6E0828475BC7006F3CA5 /* CreditCardList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCardList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1A6E0B28475BC7006F3CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF1A6E0D28475BC7006F3CA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 			files = (
 				BF1B05432852067300C3CC5F /* Kingfisher in Frameworks */,
 				BF1B054828520FB000C3CC5F /* Lottie in Frameworks */,
+				BF005DA82854CF2D00E76837 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +85,7 @@
 				BF1A6E1428475BC9006F3CA5 /* Assets.xcassets */,
 				BF1A6E1628475BC9006F3CA5 /* LaunchScreen.storyboard */,
 				BF1A6E1928475BC9006F3CA5 /* Info.plist */,
+				BF005DA42854CD2600E76837 /* GoogleService-Info.plist */,
 				BF3FE813285211AB002640DD /* money.json */,
 			);
 			path = CreditCardList;
@@ -105,6 +110,7 @@
 			packageProductDependencies = (
 				BF1B05422852067300C3CC5F /* Kingfisher */,
 				BF1B054728520FB000C3CC5F /* Lottie */,
+				BF005DA72854CF2D00E76837 /* FirebaseAnalytics */,
 			);
 			productName = CreditCardList;
 			productReference = BF1A6E0828475BC7006F3CA5 /* CreditCardList.app */;
@@ -137,6 +143,7 @@
 			packageReferences = (
 				BF1B05412852067300C3CC5F /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				BF1B054628520FB000C3CC5F /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				BF005DA62854CF2D00E76837 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = BF1A6E0928475BC7006F3CA5 /* Products */;
 			projectDirPath = "";
@@ -157,6 +164,7 @@
 				BF3FE814285211AB002640DD /* money.json in Resources */,
 				BF1A6E1328475BC7006F3CA5 /* Main.storyboard in Resources */,
 				BF1B051B284F467A00C3CC5F /* CardListCell.xib in Resources */,
+				BF005DA52854CD2600E76837 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +400,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		BF005DA62854CF2D00E76837 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
 		BF1B05412852067300C3CC5F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
@@ -411,6 +427,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		BF005DA72854CF2D00E76837 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF005DA62854CF2D00E76837 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
 		BF1B05422852067300C3CC5F /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BF1B05412852067300C3CC5F /* XCRemoteSwiftPackageReference "Kingfisher" */;

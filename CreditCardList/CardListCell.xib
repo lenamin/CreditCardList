@@ -120,7 +120,119 @@
                 <outlet property="promotionLabel" destination="iRv-Bm-O8O" id="woe-Uv-XZh"/>
                 <outlet property="rankLabel" destination="Eg9-WR-6Y2" id="nKI-vg-eqc"/>
             </connections>
-            <point key="canvasLocation" x="131.15942028985509" y="97.767857142857139"/>
+            <point key="canvasLocation" x="220" y="68"/>
+        </tableViewCell>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="f0v-Pb-yU1" customClass="CardListCell" customModule="CreditCardList" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="f0v-Pb-yU1" id="KVe-Ki-2IX">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BtT-ug-oJi">
+                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="creditcard.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="LIx-Bm-M2v">
+                                <rect key="frame" x="0.0" y="21.5" width="80" height="36.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="ZbM-wW-usr"/>
+                                    <constraint firstAttribute="height" constant="40" id="own-Hk-zah"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="vYv-nk-gY0">
+                        <rect key="frame" x="90" y="0.0" width="275" height="80"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Og-dI-UMT">
+                                <rect key="frame" x="0.0" y="0.0" width="105" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0위" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FHm-jj-W9G">
+                                        <rect key="frame" x="0.0" y="0.0" width="25" height="40"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" systemColor="systemGrayColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoM-UA-XJ3">
+                                        <rect key="frame" x="25" y="0.0" width="80" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="DAr-iR-AHe"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="ORw-1f-jEG"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="    2">
+                                                <attributes>
+                                                    <color key="NSBackgroundColor" red="0.73280444587628868" green="0.73280444587628868" blue="0.73280444587628868" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="NSColor" red="0.97297365393532032" green="0.97133246182692579" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <font key="NSFont" size="12" name="HelveticaNeue-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="만원">
+                                                <attributes>
+                                                    <color key="NSBackgroundColor" red="0.73280444587628868" green="0.73280444587628868" blue="0.73280444587628868" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="NSColor" red="0.97297365393532032" green="0.97133246182692579" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <font key="NSFont" size="12" name="AppleSDGothicNeo-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content=" ">
+                                                <attributes>
+                                                    <color key="NSBackgroundColor" red="0.73280444587628868" green="0.73280444587628868" blue="0.73280444587628868" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="NSColor" red="0.97297365393532032" green="0.97133246182692579" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <font key="NSFont" size="12" name="HelveticaNeue-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="증정    ">
+                                                <attributes>
+                                                    <color key="NSBackgroundColor" red="0.73280444587628868" green="0.73280444587628868" blue="0.73280444587628868" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="NSColor" red="0.97297365393532032" green="0.97133246182692579" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <font key="NSFont" size="12" name="AppleSDGothicNeo-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="신용카드" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bex-a4-fr6">
+                                <rect key="frame" x="0.0" y="40" width="66" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="GNa-H5-0pH">
+                        <rect key="frame" x="350" y="32" width="20" height="16.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="30h-Vb-KqX"/>
+                            <constraint firstAttribute="width" constant="20" id="e3U-Eh-AkD"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GNa-H5-0pH" firstAttribute="centerY" secondItem="vYv-nk-gY0" secondAttribute="centerY" id="BBA-gO-RWR"/>
+                    <constraint firstItem="BtT-ug-oJi" firstAttribute="leading" secondItem="KVe-Ki-2IX" secondAttribute="leading" id="Ci5-L0-K3A"/>
+                    <constraint firstAttribute="trailing" secondItem="vYv-nk-gY0" secondAttribute="trailing" constant="10" id="Fhy-v6-Jpj"/>
+                    <constraint firstItem="vYv-nk-gY0" firstAttribute="top" secondItem="KVe-Ki-2IX" secondAttribute="top" id="Hz9-i6-jcp"/>
+                    <constraint firstAttribute="bottom" secondItem="vYv-nk-gY0" secondAttribute="bottom" id="JqX-nN-mIs"/>
+                    <constraint firstAttribute="trailing" secondItem="GNa-H5-0pH" secondAttribute="trailing" constant="5" id="SyB-pq-pdd"/>
+                    <constraint firstAttribute="bottom" secondItem="BtT-ug-oJi" secondAttribute="bottom" id="Xgp-2a-IHg"/>
+                    <constraint firstItem="BtT-ug-oJi" firstAttribute="top" secondItem="KVe-Ki-2IX" secondAttribute="top" id="syb-5U-hba"/>
+                    <constraint firstItem="vYv-nk-gY0" firstAttribute="leading" secondItem="BtT-ug-oJi" secondAttribute="trailing" constant="10" id="t9M-Q6-OFx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="zym-4l-3hJ"/>
+            <connections>
+                <outlet property="cardImageView" destination="LIx-Bm-M2v" id="Ang-iE-O2V"/>
+                <outlet property="cardNameLabel" destination="bex-a4-fr6" id="kpi-4n-u05"/>
+                <outlet property="promotionLabel" destination="aoM-UA-XJ3" id="vf7-rW-MLk"/>
+                <outlet property="rankLabel" destination="FHm-jj-W9G" id="WVX-qQ-EyZ"/>
+            </connections>
+            <point key="canvasLocation" x="220" y="68"/>
         </tableViewCell>
     </objects>
     <resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>541584318957-jd3elfceu6ik9flimk5i83h6dajfg79g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.541584318957-jd3elfceu6ik9flimk5i83h6dajfg79g</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBvNMNcBd1r7S_tFVm-HTWh4XFqBIWPZWw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>541584318957</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>lena.CreditCardList</string>
+	<key>PROJECT_ID</key>
+	<string>creditcard-list-5d45d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>creditcard-list-5d45d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:541584318957:ios:2b5fffe2f30d392618c7e4</string>
+</dict>
+</plist>
