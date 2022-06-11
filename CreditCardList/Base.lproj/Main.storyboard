@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CardListCell" id="qad-eL-x1j" customClass="CardListCell" customModule="CreditCardList" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CardListCell" id="qad-eL-x1j">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qad-eL-x1j" id="mPN-sD-JJL">
@@ -43,7 +43,7 @@
         <!--카드 혜택 상세-->
         <scene sceneID="dMJ-q1-qHK">
             <objects>
-                <viewController id="DRC-qr-n40" customClass="CardDetailViewController" customModule="CreditCardList" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CardDetailViewController" id="DRC-qr-n40" customClass="CardDetailViewController" customModule="CreditCardList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zov-iJ-MQ4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -187,7 +187,6 @@
                             <constraint firstItem="ZYH-xX-5uV" firstAttribute="trailing" secondItem="6yR-sm-TPV" secondAttribute="trailing" constant="20" id="48e-vp-VK0"/>
                             <constraint firstItem="6yR-sm-TPV" firstAttribute="top" secondItem="ZYH-xX-5uV" secondAttribute="top" id="Gcn-hy-Gn6"/>
                             <constraint firstItem="6yR-sm-TPV" firstAttribute="leading" secondItem="ZYH-xX-5uV" secondAttribute="leading" constant="20" id="JJk-Ec-UVC"/>
-                            <constraint firstItem="6yR-sm-TPV" firstAttribute="centerY" secondItem="zov-iJ-MQ4" secondAttribute="centerY" id="ZpP-KN-VHz"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="카드 혜택 상세" id="28d-Cb-4Rk"/>
